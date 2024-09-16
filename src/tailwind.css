@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Dark mode styles */
+@layer base {
+  .dark {
+    @apply bg-primary text-textPrimary;
+  }
+}
+
+@layer components {
+  .btn-dark {
+    @apply bg-accent text-primary px-4 py-2 rounded-full hover:bg-opacity-80 transition duration-300;
+  }
+}
